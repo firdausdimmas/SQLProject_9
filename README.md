@@ -17,7 +17,8 @@ This data is stored in a PostgreSQL database containing one table, `product_emis
 |------------------------------------|-----------|
 | `id`                                 | `VARCHAR`   |
 | `year`                               | `INT`       |
-| `product_name`                       | `VARCHAR`   |
+| `product_name`
+                       | `VARCHAR`   |
 | `company`                            | `VARCHAR`   |
 | `country`                            | `VARCHAR`   |
 | `industry_group`                     | `VARCHAR`   |
