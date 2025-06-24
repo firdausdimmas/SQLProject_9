@@ -1,7 +1,12 @@
 # Analyzing Industry Carbon Emissions
 
 ### Project Overview
-When factoring heat generation required for the manufacturing and transportation of products, Greenhouse gas emissions attributable to products, from food to sneakers to appliances, make up more than 75% of global emissions. 
+
+![pollution](https://github.com/user-attachments/assets/a00114a4-ab24-409b-b703-fce8f311b9cd)
+
+Photo by Maxim Tolchinskiy on Unsplash
+  
+When factoring heat generation required for the manufacturing and transportation of products, _Greenhouse gas emissions attributable to products, from food to sneakers to appliances, make up more than 75% of global emissions._
 
 (Source: The Carbon Catalogue https://www.nature.com/articles/s41597-022-01178-9)
 
@@ -17,8 +22,7 @@ This data is stored in a PostgreSQL database containing one table, `product_emis
 |------------------------------------|-----------|
 | `id`                                 | `VARCHAR`   |
 | `year`                               | `INT`       |
-| `product_name`
-                       | `VARCHAR`   |
+| `product_name`                       | `VARCHAR`   |
 | `company`                            | `VARCHAR`   |
 | `country`                            | `VARCHAR`   |
 | `industry_group`                     | `VARCHAR`   |
