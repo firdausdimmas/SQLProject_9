@@ -34,10 +34,12 @@ This data is stored in a PostgreSQL database containing one table, `product_emis
 
 We'll use this data to examine the carbon footprint of each industry in the dataset! 
 
-### Key Questions
+### Key Question
 Which industries are the worst offenders in 2017?
 
 ### Data Analysis
+Include some interesting code/features worked with
+
 ```sql
 -- Carbon Emissions by Industry
 SELECT industry_group,
