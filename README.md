@@ -16,23 +16,62 @@ Our data, which is publicly available on nature.com, contains product carbon foo
 
 This data is stored in a PostgreSQL database containing one table, `product_emissions`, which looks at PCFs by product as well as the stage of production that these emissions occurred. Here's a snapshot of what `product_emissions` contains in each column:
 
-#### `product_emissions`
+<h4><code>product_emissions</code></h4>
 
-| field                              | data type |
-|------------------------------------|-----------|
-| `id`                                 | `VARCHAR`   |
-| `year`                               | `INT`       |
-| `product_name`                       | `VARCHAR`   |
-| `company`                            | `VARCHAR`   |
-| `country`                            | `VARCHAR`   |
-| `industry_group`                     | `VARCHAR`   |
-| `weight_kg`                          | `NUMERIC`   |
-| `carbon_footprint_pcf`               | `NUMERIC`   |
-| `upstream_percent_total_pcf`         | `VARCHAR`   |
-| `operations_percent_total_pcf`       | `VARCHAR`   |
-| `downstream_percent_total_pcf`       | `VARCHAR`   |
-
-We'll use this data to examine the carbon footprint of each industry in the dataset! 
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>id</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>year</code></td>
+      <td><code>INT</code></td>
+    </tr>
+    <tr>
+      <td><code>product_name</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>company</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>country</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>industry_group</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>weight_kg</code></td>
+      <td><code>NUMERIC</code></td>
+    </tr>
+    <tr>
+      <td><code>carbon_footprint_pcf</code></td>
+      <td><code>NUMERIC</code></td>
+    </tr>
+    <tr>
+      <td><code>upstream_percent_total_pcf</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>operations_percent_total_pcf</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+    <tr>
+      <td><code>downstream_percent_total_pcf</code></td>
+      <td><code>VARCHAR</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Key Question
 Which industries are the worst offenders in 2017?
